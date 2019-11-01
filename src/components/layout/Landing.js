@@ -5,10 +5,23 @@ import Portfolio from "../sections/Portfolio";
 import Contact from "../sections/Contact";
 
 const Landing = () => {
+  const myDivToFocus = React.createRef();
+
+  const handleOnClick = () => {
+    if (myDivToFocus.current) {
+      myDivToFocus.current.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest"
+      });
+    }
+  };
+
   return (
     <div>
-      <Hero />
-      <Offer />
+      <Hero handleOnClick={handleOnClick} />
+      <div ref={myDivToFocus}>
+        <Offer />
+      </div>
       <Portfolio />
       <Contact />
     </div>

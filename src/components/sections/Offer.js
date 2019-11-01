@@ -9,7 +9,7 @@ const Offer = () => {
   };
   return (
     <div className="bg-teal-100  h-screen flex flex-col justify-center items-center">
-      <h1 className="lg:text-6xl md:text-5xl text-teal-800 font-bold xl:mb-56 md:mb-10">
+      <h1 className="xl:mb-56 lg:text-6xl sm:text-6xl sm:mb-24 md:text-5xl text-teal-800 font-bold  md:mb-10">
         What I Offer
       </h1>
       <div className="xl:flex xl:flex-row xl:w-full xl:justify-around lg:flex lg:flex-col lg:justify-center lg:items-center   md:flex-col md:justify-center md:items-center ">
@@ -17,7 +17,7 @@ const Offer = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            className="lg:w-24 md:w-16 icon-security"
+            className="lg:w-24 md:w-16  sm:w-24 icon-security"
           >
             <path
               className="primary"
@@ -30,10 +30,10 @@ const Offer = () => {
               d="M6 12V5.56l6-1.5V12H6zm6 7.76V12h6v1.06a6 6 0 0 1-3.32 5.36L12 19.76z"
             ></path>
           </svg>
-          <h1 className="tracking-wide lg:text-5xl md:text-4xl text-teal-800 font-semibold">
+          <h1 className="tracking-wide lg:text-5xl md:text-4xl sm:text-3xl text-teal-800 font-semibold">
             Security
           </h1>
-          <p className="lg:text-4xl md:text-3xl text-gray-800">
+          <p className="lg:text-4xl md:text-3xl sm:text-xl text-gray-800 sm:pb-10">
             Locking down your site to ensure user peace of mind.
           </p>
         </div>
@@ -41,7 +41,7 @@ const Offer = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            className="lg:w-24 md:w-16 icon-layers"
+            className="lg:w-24 md:w-16 sm:w-24 icon-layers"
           >
             <path
               className="primary"
@@ -54,10 +54,10 @@ const Offer = () => {
               d="M3.91 10.5l7.68 3.41a1 1 0 0 0 .82 0l7.68-3.41 1.32.59a1 1 0 0 1 0 1.82l-9 4a1 1 0 0 1-.82 0l-9-4a1 1 0 0 1 0-1.82l1.32-.59zm0 5l7.68 3.41a1 1 0 0 0 .82 0l7.68-3.41 1.32.59a1 1 0 0 1 0 1.82l-9 4a1 1 0 0 1-.82 0l-9-4a1 1 0 0 1 0-1.82l1.32-.59z"
             ></path>
           </svg>
-          <h1 className="tracking-wide lg:text-5xl md:text-4xl text-teal-800 font-semibold">
+          <h1 className="tracking-wide lg:text-5xl md:text-4xl sm:text-3xl text-teal-800 font-semibold">
             Design
           </h1>
-          <p className="lg:text-4xl md:text-3xl text-gray-800">
+          <p className="lg:text-4xl md:text-3xl sm:text-xl text-gray-800 sm:pb-10">
             Create a beautiful modern design sure to please anyone's eye.
           </p>
         </div>
@@ -65,7 +65,7 @@ const Offer = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            className="lg:w-24 md:w-16 icon-dashboard"
+            className="lg:w-24 md:w-16 sm:w-24 icon-dashboard"
           >
             <path
               className="secondary"
@@ -83,10 +83,10 @@ const Offer = () => {
               d="M11 14.27V9a1 1 0 0 1 2 0v5.27a2 2 0 1 1-2 0z"
             ></path>
           </svg>
-          <h1 className="tracking-wide lg:text-5xl md:text-4xl text-teal-800 font-semibold">
+          <h1 className="tracking-wide lg:text-5xl md:text-4xl sm:text-3xl text-teal-800 font-semibold">
             Efficency
           </h1>
-          <p className="lg:text-4xl md:text-3xl text-gray-800">
+          <p className="lg:text-4xl md:text-3xl sm:text-xl text-gray-800 ">
             Writing clean, scalable, fast code to ensure not only a great user
             experience, but to help with SEO as well
           </p>

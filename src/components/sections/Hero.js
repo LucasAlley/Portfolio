@@ -1,17 +1,21 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const Hero = () => {
+const Hero = ({ handleOnClick }) => {
   const primary = {
     fill: "#81e6d9"
   };
 
   return (
     <div className="flex flex-col items-center justify-center bg-teal-300 text-center h-screen">
-      <h1 className="lg:text-6xl md:text-6xl text-white lg:pb-8  md:pb-8 font-semibold">
+      <h1 className="lg:text-6xl md:text-6xl sm:text-6xl text-white lg:pb-8  md:pb-8 font-semibold">
         I'm Lucas Alley
       </h1>
       <h2 className="text-5xl text-white pb-32">A Full Stack Web Developer</h2>
-      <button className="shadow py-4 px-4 flex flex-row text-4xl items-center text-white bg-teal-900  rounded">
+      <button
+        onClick={() => handleOnClick()}
+        className="shadow py-4 px-4 flex flex-row text-4xl items-center text-white bg-teal-900  rounded"
+      >
         <p className="mr-4">Lets Work</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -33,6 +37,10 @@ const Hero = () => {
       </button>
     </div>
   );
+};
+
+Hero.propTypes = {
+  handleOnClick: PropTypes.func.isRequired
 };
 
 export default Hero;
