@@ -29,6 +29,29 @@ const Portfolio = () => {
         </a>
       </div>
       <div className="w-1/2  mb-16">
+        <h1 className="text-4xl text-white font-bold">Tommy Bradford</h1>
+        <p className="text-2xl text-teal-600 font-medium">
+          Mock Marketing Website.
+        </p>
+        <a
+          className="text-2xl text-teal-800 font-medium"
+          href="https://ecstatic-euclid-0c04c0.netlify.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Website |
+        </a>
+        <a
+          className="text-2xl text-teal-800 font-medium"
+          href="https://github.com/LucasAlley/Mock-Marketing-SPA"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          Code
+        </a>
+      </div>
+      <div className="w-1/2  mb-16">
         <h1 className="text-4xl text-white font-bold">Blue Raven</h1>
         <p className="text-2xl text-teal-600 font-medium">
           Website revamp for a local business.
