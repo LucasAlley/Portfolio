@@ -1,21 +1,6 @@
 module.exports = {
   theme: {
-    extend: {
-      width: {
-        "72": "356px",
-        "82": "400px"
-      },
-      minWidth: {
-        "0": "0",
-        "1/4": "25%",
-        "1/2": "50%",
-        "3/4": "75%",
-        full: "100%"
-      },
-      screens: {
-        xs: "512px"
-      }
-    },
+    extend: {},
     fontSize: {
       xs: ".75rem",
       sm: ".875rem",
